@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(175, 132, 217);
+  background-image: url("clock.jpg");
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(149, 21, 21);
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+#time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  color: brown;
+  font-size: 50px;
+}
+#reset,
+#start,
+#stop {
+  border: 2px solid black;
+  padding: 10px;
+  color: red;
+  background-color: saddlebrown;
+  border-radius: 40%;
+}
+#reset:hover,
+#start:hover,
+#stop:hover {
+  color: blueviolet;
+  background-color: blanchedalmond;
+}
