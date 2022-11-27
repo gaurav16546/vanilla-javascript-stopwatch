@@ -1,14 +1,13 @@
 body {
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(175, 132, 217);
-  background-image: url("clock.jpg");
+  background-color: #fbeaff;
 }
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(149, 21, 21);
+  color: #2c73d2;
 }
 .buttons {
   display: flex;
@@ -20,7 +19,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 40px;
-  color: brown;
+  color: #4b4453;
   font-size: 50px;
 }
 #reset,
@@ -28,13 +27,13 @@ header {
 #stop {
   border: 2px solid black;
   padding: 10px;
-  color: red;
-  background-color: saddlebrown;
+  color: #008e9b;
+  background-color: #4b4453;
   border-radius: 40%;
 }
 #reset:hover,
 #start:hover,
 #stop:hover {
   color: blueviolet;
-  background-color: blanchedalmond;
+  background-color: #fbeaff;
 }
